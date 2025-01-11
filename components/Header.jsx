@@ -12,7 +12,7 @@ export default function Header() {
   };
 
   return (
-    <header className="relative ">
+    <header className="relative h-[350px] ">
       {/* Background Image */}
       <Image src="/images/atf-bg.png" alt="Header background" layout="fill" objectFit="cover" />
 

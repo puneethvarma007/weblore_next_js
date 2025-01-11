@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 const clients = [
   { name: 'Cutis', logo: '/images/Cutis-logo.png' },
-  { name: 'Green Olive Control Systems', logo: '/images/greenolivecontrolsystems.png' },
+  { name: 'Green Olive Control System', logo: '/images/greenolivecontrolsystems.png' },
   { name: 'SKD Pharma', logo: '/images/skd_pharma.png' },
   { name: 'GOCS', logo: '/images/gocs.jpg' },
 ]
