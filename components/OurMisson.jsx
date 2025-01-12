@@ -7,7 +7,7 @@ export default function OurMission() {
       <div className="absolute inset-0 bg-gray-800">
         <Image
           src="/images/atf-hero-image.jpg"
-          alt="Our mission background"
+          alt="Our mission backgroun"
           layout="fill"
           objectFit="fill"
           className="z-0"

@@ -153,10 +153,10 @@ export default function ValuesSection() {
   return (
     <section className="flex justify-center items-center min-h-screen bg-gray-100 p-4">
       {/* Grid Container */}
-      <div className="grid grid-cols-1 md:grid-cols-5 md:grid-rows-5 gap-4 w-[80%] h-[800px]">
+      <div className="grid grid-cols-1 md:grid-cols-9 md:grid-rows-8 gap-4 w-[80%] h-[800px]">
         {/* Item 1: Make Customers Win */}
         <div
-          className="md:col-span-2 md:row-span-4 bg-cover bg-center rounded-lg relative"
+          className="md:col-span-4 md:row-span-5 bg-cover bg-center rounded-lg relative"
           style={{ backgroundImage: "url('/images/values-make-customer-win.jpg')" }}
         >
           <div className="absolute left-8 bottom-8 bg-white bg-opacity-60 rounded-lg p-6 w-3/4 h-3/4 flex flex-col justify-center">
@@ -169,7 +169,7 @@ export default function ValuesSection() {
 
         {/* Item 2: Collective Victories */}
         <div
-          className="md:col-span-3 md:row-span-2 bg-cover bg-center rounded-lg relative"
+          className="md:col-span-5 md:col-start-5 md:row-span-3 bg-cover bg-center rounded-lg relative"
           style={{ backgroundImage: "url('/images/values-collective-victories.jpg')" }}
         >
           <div className="absolute left-0 bottom-0 bg-white bg-opacity-60 rounded-r-lg p-4 w-4/5 h-3/5 flex items-center gap-4">
@@ -182,7 +182,7 @@ export default function ValuesSection() {
 
         {/* Item 4: Stewardship */}
         <div
-          className="md:col-span-3 md:row-span-4 bg-cover bg-center rounded-lg relative"
+          className="md:col-span-4 md:col-start-6 md:row-span-5 bg-cover bg-center rounded-lg relative"
           style={{ backgroundImage: "url('/images/values-stewardship.jpg')" }}
         >
           <div className="absolute left-0 top-8 bg-white bg-opacity-60 rounded-r-lg p-4 w-3/4 h-3/5">
@@ -195,7 +195,7 @@ export default function ValuesSection() {
 
          {/* Item 3: Integrity */}
          <div
-          className="md:col-span-2 md:row-span-2 bg-cover bg-center rounded-lg relative"
+          className="md:col-span-5 md:row-span-4 md:col-start-1  bg-cover bg-center rounded-lg relative"
           style={{ backgroundImage: "url('/images/values-integrity.jpg')" }}
         >
           <div className="absolute left-0 top-8 bg-white bg-opacity-60 rounded-b-lg p-4 w-3/4 h-4/5 flex flex-col justify-center">
