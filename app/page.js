@@ -1,3 +1,4 @@
+'use client'
 import Header from '../components/Header'
 import OurMisson from '@/components/OurMisson'
 import Services from '../components/Services'
@@ -8,8 +9,15 @@ import Team from '../components/Team'
 import Clients from '../components/Clients'
 import Testimonials from '../components/Testimonials'
 import Footer from '../components/Footer'
+import { useEffect } from 'react'
 
 export default function Home() {
+
+  
+  useEffect(() => {
+    window.scrollTo("_",0);
+  }, [window.location.pathname])
+
   return (
     <main className="flex min-h-screen flex-col">
       <Header />
@@ -25,4 +33,3 @@ export default function Home() {
     </main>
   )
 }
-
