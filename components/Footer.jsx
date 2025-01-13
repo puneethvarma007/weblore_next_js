@@ -121,9 +121,8 @@ export default function Footer() {
         {/* Middle Section: Services, About Us, Connect, Follow Us */}
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 mb-12">
           {/* Services */}
-          <div>
-            <h3 className="font-bold mb-4">Services</h3>
-            <ul>
+          <div className='flex items-end'>
+            <ul >
               <li>
                 <Link href="#services" className="hover:underline">
                   Services
@@ -138,9 +137,9 @@ export default function Footer() {
           </div>
 
           {/* About Us */}
-          <div>
-            <h3 className="font-bold mb-4">About Us</h3>
-            <ul>
+          <div className='flex items-end'>
+            {/* <h3 className="font-bold mb-5"></h3> */}
+            <ul className='mt-5'>
               <li>
                 <Link href="#our-story" className="hover:underline">
                   Our Story
@@ -155,8 +154,7 @@ export default function Footer() {
           </div>
 
           {/* Connect */}
-          <div>
-            <h3 className="font-bold mb-4">Connect</h3>
+          <div className='flex items-end'>
             <ul>
               <li>
                 <Link href="#testimonials" className="hover:underline">
