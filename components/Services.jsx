@@ -26,9 +26,9 @@ export default function Services() {
                 alt={service.name}
                 width={2000}
                 height={200}
-                className="mx-auto"
+                className="mx-auto mt-2 my-0 "
               />
-              <p className="mt-4 text-xl">
+              <p className="mt-0 text-xl">
                 {service.name === 'Web & App Development' && (
                   <>
                     <span className="text-yellow-400">Web & App</span>{' '}

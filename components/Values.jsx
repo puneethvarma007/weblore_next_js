@@ -52,7 +52,7 @@ export default function ValuesSection() {
             className="md:col-span-5 md:row-span-4 md:col-start-1 bg-cover bg-center rounded-lg relative min-h-[300px] md:min-h-0"
             style={{ backgroundImage: "url('/images/values-integrity.jpg')" }}
           >
-            <div className="absolute left-0 top-4 md:top-0 md:left-12 xl:left-20 bg-white bg-opacity-60 rounded-b-lg p-4 w-[90%] md:w-3/4 h-auto md:h-4/5 flex flex-col justify-center">
+            <div className="absolute left-0 top-4 md:top-0 md:left-12 xl:left-20 bg-white bg-opacity-80 rounded-b-lg p-4 w-[90%] md:w-3/4 h-auto md:h-4/5 flex flex-col justify-center">
               <h2 className="text-gray-600 text-lg md:text-xl font-bold mb-2 leading-tight">Integrity</h2>
               <p className="text-gray-500 text-xs md:text-sm leading-relaxed">
                 We hold ourselves to the highest standards of trust, dependability and experience. We walk our talk and stay true to who we are and what we believe.

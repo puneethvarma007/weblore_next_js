@@ -24,7 +24,7 @@ export default function Header() {
         <div className="container mx-auto flex gap-4 max-xl:justify-between items-center p-4">
           {/* Logo */}
           <Link href='#home' className="flex-shrink-0">
-            <Image src="/images/nav-logo.png" alt="Weblore Logo" width={160} height={70} />
+            <Image src="/images/nav-logo.png" alt="Weblore Logo" width={160} height={70} priority/>
           </Link>
 
           {/* Mobile Menu Toggle Button */}
@@ -62,7 +62,7 @@ export default function Header() {
         <div className="relative z-10 text-center text-white p-8 h-[220px]">
           {/* Logo */}
           <div className="mx-auto h-full flex justify-center items-center">
-            <Image src="/images/logo.png" alt="Weblore Logo" width={400} height={300} />
+            <Image src="/images/logo.png" alt="Weblore Logo" width={400} height={300} priority />
           </div>
 
           {/* Subheading */}
