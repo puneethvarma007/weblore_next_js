@@ -4,7 +4,6 @@ import Link from 'next/link';
 export default function Footer() {
   return (
     <footer id='contact' className="relative text-white">
-      {/* Background Image */}
       <Image
         src="/images/footer-bg.png"
         alt="Footer background"
@@ -13,11 +12,8 @@ export default function Footer() {
         className="z-0"
       />
 
-      {/* Content */}
       <div className="relative z-10 py-16 px-4 md:px-8">
-        {/* Top Section: Logo, Email, Call Us */}
         <div className="flex flex-col md:flex-row justify-evenly items-start mb-12 gap-8">
-          {/* Logo */}
           <div className="mb-8 md:mb-0">
             <Image
               src="/images/footer-logo.png"
@@ -27,32 +23,39 @@ export default function Footer() {
             />
           </div>
 
-          {/* Email Us */}
+          <div>
+          <div className="mb-8 md:mb-0">
+            <h3 className="font-bold mb-4">Corporate Office</h3>
+              <p>TRION WEBLORE TECHNOLOGIES PRIVATE LIMITED</p>
+              <p>70, 2ND CROSS,HBCS LAYOUT, MARENAHALLI, </p>
+              <p>Vijayanagar (Bangalore),Bangalore North, Bangalore- 560040, Karnataka</p>
+          </div>
+
+          <div className="mt-8 mb-8 md:mb-0">
+            <h3 className="font-bold mb-4">Office</h3>
+                <p># 553, 2nd Floor, 9th A Main, 1st Stage,Indiranagar,Banglore, Karnataka- 560038</p>
+          </div>
+
+          </div>
+
           <div className="mb-8 md:mb-0">
             <h3 className="font-bold mb-4">Email Us</h3>
             <p>
-              <a href="mailto:admin@adharvasoft.com" className="hover:underline">
-                admin@adharvasoft.com
-              </a>
-            </p>
-            <p>
-              <a href="mailto:hr@adharvasoft.com" className="hover:underline">
-                hr@adharvasoft.com
+              <a href="mailto:contact@webloretech.com.com" target='_blank' className="hover:underline">
+                contact@webloretech.com
               </a>
             </p>
           </div>
 
-          {/* Call Us */}
           <div>
             <h3 className="font-bold mb-4">Call Us</h3>
-            <p>+91 70930 66502</p>
-            <p>+91 80952 47772</p>
+            <p>9606189129</p>
+            {/* <p>+91 70930 66502</p> */}
           </div>
         </div>
 
-        {/* Middle Section: Services, About Us, Connect, Follow Us */}
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 mb-12">
-          {/* Services */}
+
           <div className='flex items-end'>
             <ul >
               <li>
@@ -68,9 +71,8 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* About Us */}
+  
           <div className='flex items-end'>
-            {/* <h3 className="font-bold mb-5"></h3> */}
             <ul className='mt-5'>
               <li>
                 <Link href="#our-story" className="hover:underline">
@@ -85,7 +87,6 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Connect */}
           <div className='flex items-end'>
             <ul>
               <li>
@@ -101,7 +102,6 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Follow Us */}
           <div>
             <h3 className="bg-black text-white px-2 py-2 font-semibold mb-4">
               Follow Us
@@ -113,12 +113,12 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="#testimonials" className="hover:underline">
+                <Link href="#contact" className="hover:underline">
                   X
                 </Link>
               </li>
               <li>
-                <Link href="#testimonials" className="hover:underline">
+                <Link href="#contact" className="hover:underline">
                   Linkedin
                 </Link>
               </li>
@@ -131,11 +131,11 @@ export default function Footer() {
           </div>
         </div>
 
-        {/* Bottom Section: Copyright and Privacy Policy */}
         <hr className="mb-4" />
+        
         <div className="flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-center md:text-left">
-            &copy; Copyright Adharva Soft Labs Pvt.Ltd. All Rights Reserved
+            &copy; Copyright TRION WEBLORE TECHNOLOGIES PRIVATE LIMITED
           </p>
           <Link href="/privacy-policy" className="hover:underline">
             Privacy Policy

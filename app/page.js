@@ -10,16 +10,8 @@ import Team from '../components/Team';
 import Clients from '../components/Clients';
 import Testimonials from '../components/Testimonials';
 import Footer from '../components/Footer';
-import { useEffect } from 'react';
-import { usePathname } from 'next/navigation';
 
 export default function Home() {
-  const pathName =  usePathname();
-
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  }, [pathName]);
-
   return (
     <>
       <Head>
